@@ -3,10 +3,9 @@ import { CommonModule } from '@angular/common';
 import { TitleComponent } from '@shared/title/title.component';
 
 @Component({
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [CommonModule, TitleComponent],
-  template: `
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [CommonModule, TitleComponent],
+    template: `
 
     <app-title [title]="currentFramework()" />
 

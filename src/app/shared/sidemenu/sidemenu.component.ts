@@ -6,11 +6,10 @@ import { routes } from '../../app.routes';
 
 
 @Component({
-  selector: 'app-sidemenu',
-  standalone: true,
-  imports: [CommonModule, RouterModule],
-  templateUrl: './sidemenu.component.html',
-  styleUrl: './sidemenu.component.css',
+    selector: 'app-sidemenu',
+    imports: [CommonModule, RouterModule],
+    templateUrl: './sidemenu.component.html',
+    styleUrl: './sidemenu.component.css'
 })
 export class SidemenuComponent {
 
